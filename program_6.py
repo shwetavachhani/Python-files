@@ -1,0 +1,67 @@
+#some logic ideas
+
+a=[1,5,9,11,2,66]
+print('a[1:]=>',a[1:])
+#a[1:]=> [5, 9, 11, 2, 66]
+print('a[:1]=>',a[:1])
+#a[:1]=> [1]
+print('a[-1:]=>',a[-1:])
+#a[-1:]=> [66]
+print('a[:-1]=>',a[:-1])
+#a[:-1]=> [1, 5, 9, 11, 2]
+print('a[3]=>',a[3])
+#a[3]=> 11
+print('a[3:]=>',a[3:])
+#a[3:]=> [11, 2, 66]
+print('a[:3]=>',a[:3])
+#a[:3]=> [1, 5, 9]
+print('a[-3:]=>',a[-3:])
+#a[-3:]=> [11, 2, 66]
+print('a[:-3]=>',a[:-3])
+#a[:-3]=> [1, 5, 9]
+print('a[::1]=>',a[::1])
+#a[::1]=> [1, 5, 9, 11, 2, 66]
+print('a[::-1]=>',a[::-1])
+#a[::-1]=> [66, 2, 11, 9, 5, 1]
+print('a[1::]=>',a[1::])
+#a[1::]=> [5, 9, 11, 2, 66]
+print('a[::-1]=>',a[::-1])
+#a[::-1]=> [66, 2, 11, 9, 5, 1]
+print('a[::-2]=>',a[::-2])
+#a[::-2]=> [66, 11, 5]
+print('a[2::]=>',a[2::])
+#a[2::]=> [9, 11, 2, 66]
+
+
+
+txt="beautiful earth"
+print('txt[1:]=>',txt[1:])
+#txt[1:]=> eautiful earth
+print('txt[:1]=>',txt[:1])
+#txt[:1]=> b
+print('txt[-1:]=>',txt[-1:])
+#txt[-1:]=> h
+print('txt[:-1]=>',txt[:-1])
+#txt[:-1]=> beautiful eart
+print('txt[3]=>',txt[3])
+#txt[3]=> u
+print('txt[3:]=>',txt[3:])
+#txt[3:]=> utiful earth
+print('txt[:3]=>',txt[:3])
+#txt[:3]=> bea
+print('txt[-3:]=>',txt[-3:])
+#txt[-3:]=> rth
+print('txt[:-3]=>',txt[:-3])
+#txt[:-3]=> beautiful ea
+print('txt[::1]=>',txt[::1])
+#txt[::1]=> beautiful earth
+print('txt[::-1]=>',txt[::-1])
+#txt[::-1]=> htrae lufituaeb
+print('txt[1::]=>',txt[1::])
+#txt[1::]=> eautiful earth
+print('txt[::-1]=>',txt[::-1])
+#txt[::-1]=> htrae lufituaeb
+print('txt[::-2]=>',txt[::-2])
+#txt[::-2]=> hrelftab
+print('txt[2::]=>',txt[2::])
+#txt[2::]=> autiful earth
